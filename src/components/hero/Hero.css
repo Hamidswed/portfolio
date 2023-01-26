@@ -1,0 +1,32 @@
+.hero{
+  display: flex;
+}
+.hero-left{
+  flex:1;
+  display: flex;
+  justify-content: flex-start;
+}
+.hero-left h1{
+  font-size: 100px;
+  text-align: left;
+  line-height: 100px;
+}
+.hero-left span{
+  font-weight: bold;
+}
+.hero-right{
+  flex:2;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.hero-right :first-child{
+  width: 40%;
+  height: 400px;
+  background-color: brown;
+}
+.hero-right :last-child{
+  width: 40%;
+  height: 400px;
+  background-color: brown;
+}

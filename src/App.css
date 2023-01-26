@@ -3,6 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #E2E2E2;
+}
 .App {
   text-align: center;
+  background-image: url('./assets/back.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 200px 150px;
 }

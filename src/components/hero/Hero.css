@@ -4,29 +4,31 @@
 .hero-left{
   flex:1;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  gap: 20px;
+  padding-top: 30px;
 }
 .hero-left h1{
-  font-size: 100px;
+  font-size: 50px;
   text-align: left;
-  line-height: 100px;
+  line-height: 60px;
+}
+.hero-left p{
+  text-align: left;
 }
 .hero-left span{
   font-weight: bold;
+  font-size: 70px
 }
 .hero-right{
   flex:2;
+  height: 500px;
   display: flex;
   justify-content: flex-end;
   gap: 30px;
-}
-.hero-right :first-child{
-  width: 40%;
-  height: 400px;
-  background-color: brown;
-}
-.hero-right :last-child{
-  width: 40%;
-  height: 400px;
-  background-color: brown;
+  background-image: url('../../assets/frontend.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }

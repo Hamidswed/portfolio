@@ -4,27 +4,28 @@
 	 viewBox="0 0 750 500" style="enable-background:new 0 0 750 500;" xml:space="preserve">
 <style type="text/css">
 	
-		.st0{clip-path:url(#SVGID_00000054245449947700244520000018162046221779431838_);fill:url(#SVGID_00000021091135421364989460000015114260471905637806_);}
+		.st0{clip-path:url(#SVGID_00000117647249471914461150000001922868414127871396_);fill:url(#SVGID_00000181796936537610814510000009929561920075501448_);}
 </style>
 <g>
 	<defs>
 		<rect id="SVGID_1_" width="750" height="500"/>
 	</defs>
-	<clipPath id="SVGID_00000183212997626032032700000006201043326869072284_">
+	<clipPath id="SVGID_00000004546244798137027740000016142750794723884677_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 	
-		<linearGradient id="SVGID_00000014600838096494667810000007297887816253581754_" gradientUnits="userSpaceOnUse" x1="131.1625" y1="609.306" x2="642.7209" y2="-128.9247">
-		<stop  offset="0" style="stop-color:#C8CACC"/>
-		<stop  offset="0.1387" style="stop-color:#D5D6D7"/>
-		<stop  offset="0.3812" style="stop-color:#E4E5E6"/>
-		<stop  offset="0.5713" style="stop-color:#EAEBEB"/>
-		<stop  offset="0.7471" style="stop-color:#EEEFEF"/>
-		<stop  offset="0.9274" style="stop-color:#FAFAFB"/>
+		<linearGradient id="SVGID_00000017489510718873314200000001771968916885772955_" gradientUnits="userSpaceOnUse" x1="131.1625" y1="609.306" x2="642.7209" y2="-128.9247">
+		<stop  offset="0" style="stop-color:#AEB0B1"/>
+		<stop  offset="0.1327" style="stop-color:#BABBBC"/>
+		<stop  offset="0.3786" style="stop-color:#C9CBCB"/>
+		<stop  offset="0.5713" style="stop-color:#CFD0D0"/>
+		<stop  offset="0.6868" style="stop-color:#D3D4D4"/>
+		<stop  offset="0.8054" style="stop-color:#DFE0E0"/>
+		<stop  offset="0.9251" style="stop-color:#F4F4F4"/>
 		<stop  offset="0.976" style="stop-color:#FFFFFF"/>
 	</linearGradient>
 	
-		<path style="clip-path:url(#SVGID_00000183212997626032032700000006201043326869072284_);fill:url(#SVGID_00000014600838096494667810000007297887816253581754_);" d="
+		<path style="clip-path:url(#SVGID_00000004546244798137027740000016142750794723884677_);fill:url(#SVGID_00000017489510718873314200000001771968916885772955_);" d="
 		M391.88,473.85v-30.89l-29.14-16.82v33.07l-27.14,15.67v-32.49l-28.64,16.53l-27.64-15.95v-30.31c0.84-0.22,1.46-0.98,1.46-1.89
 		c0-0.18-0.03-0.35-0.08-0.51l26.5-15.3l0.25-0.14v-33.64l-28.63,16.53l-28.14-16.25l-28.14,16.24l-27.64-15.96v-31.91l28.64-16.53
 		l-28.64-16.53V263.7l-28.89,16.68l-0.25,0.14v31.91l-25.75-14.87c0.04-0.16,0.08-0.33,0.08-0.51c0-0.91-0.62-1.67-1.46-1.89v-62.8

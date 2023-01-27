@@ -1,24 +1,34 @@
-import './NavBar.css'
-import {ReactComponent as Logo} from '../../assets/logo.svg';
-import {Link} from 'react-router-dom'
+import "./NavBar.css";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
+import  Search  from "../search/Search";
 
-const NavBar=()=>{
-  return(
+const NavBar = () => {
+  return (
     <div className="navbar">
-      <div className='navbar-logo'>
-        <Logo/>
+      <div className="navbar-logo">
+        <Logo />
       </div>
-      <div className='navbar-menu'>
+      <div className="navbar-menu">
         <ul>
-          <Link to="/"><li>Home</li></Link>
-          <Link to="/frontend"><li>FrontEnd</li></Link>
-          <Link to="/graphic"><li>Grpahic</li></Link>
-          <Link to="/about"><li>About me</li></Link>
-
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/frontend">
+            <li>FrontEnd</li>
+          </Link>
+          <Link to="/graphic">
+            <li>Grpahic</li>
+          </Link>
+          <Link to="/about">
+            <li>About me</li>
+          </Link>
         </ul>
       </div>
-      <div className='navbar-login'>login</div>
+      <div className="navbar-login">
+        <Search/>
+      </div>
     </div>
-  )
-}
-export default NavBar
+  );
+};
+export default NavBar;

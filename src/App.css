@@ -8,9 +8,9 @@ body{
 }
 .App {
   text-align: center;
-  /* background-image: url('./assets/back.svg');
+  background-image: url('./assets/back.svg');
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   min-height: 100vh;
   padding: 150px;
 }

@@ -13,6 +13,8 @@ const NavBar=()=>{
           <Link to="/"><li>Home</li></Link>
           <Link to="/frontend"><li>FrontEnd</li></Link>
           <Link to="/graphic"><li>Grpahic</li></Link>
+          <Link to="/about"><li>About me</li></Link>
+
         </ul>
       </div>
       <div className='navbar-login'>login</div>

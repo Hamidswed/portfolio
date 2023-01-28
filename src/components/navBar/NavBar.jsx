@@ -1,13 +1,15 @@
 import "./NavBar.css";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
-import  Search  from "../search/Search";
+import Search from "../search/Search";
 
 const NavBar = () => {
   return (
     <div className="navbar">
       <div className="navbar-logo">
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
       </div>
       <div className="navbar-menu">
         <ul>
@@ -26,7 +28,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-login">
-        <Search/>
+        <Search />
       </div>
     </div>
   );

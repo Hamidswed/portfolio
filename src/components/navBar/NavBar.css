@@ -16,7 +16,7 @@
 .navbar-logo{
   flex:1;
 }
-.navbar-logo svg{
+.navbar-logo a{
   width: 40%;
   margin: 0 auto;
 }

@@ -6,19 +6,19 @@ const FrontendList = () => {
   const getData = () => {
     fetch("/api/frontend.json")
       .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        setFrontend(data);
-      });
+      .then((data) => setFrontend(data))
+      .catch((error) => console.log(error));
   };
 
   useEffect(() => {
     getData();
   }, []);
-  console.log(frontend);
+  console.log(frontend, "frontend");
   return (
-    <div>
-      <FrontendItem />
+    <div className="flex flex-col gap-10">
+      {frontend?.map((item) => {
+        return <FrontendItem key={item.id} item={item} />;
+      })}
     </div>
   );
 };

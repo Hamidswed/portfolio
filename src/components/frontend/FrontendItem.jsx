@@ -1,25 +1,21 @@
-import frontpic from "../../assets/frontend/group-project.png";
 
-const FrontendItem = () => {
+const FrontendItem = ({ item }) => {
   return (
     <div className="card lg:card-side bg-base-100 shadow-xl">
       <figure>
-        <a
-          href="https://products-app-kohl.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={frontpic} alt="Group Project" />
+        <a href={item.link} target="_blank" rel="noreferrer">
+          <img src={item.image} alt={item.title} />
         </a>
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Swedish Fashion</h2>
-        <p className="w-60 text-left">
-          It is a team work project that implemented by React.js, Redux Toolkit,
-          TypeScript and Material UI as CSS.
-        </p>
+        <h2 className="card-title">{item.title}</h2>
+        <p className="w-60 text-left">{item.description}</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-wide hover:bg-[#374EA2]">Open in browser</button>
+          <a href={item.link} target="_blank" rel="noreferrer">
+            <button className="btn btn-wide hover:bg-[#374EA2]">
+              Open in browser
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const FrontendList = () => {
   }, []);
   console.log(frontend, "frontend");
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 mt-10">
       {frontend?.map((item) => {
         return <FrontendItem key={item.id} item={item} />;
       })}

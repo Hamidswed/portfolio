@@ -1,4 +1,6 @@
+import { ReactComponent as Back } from "../assets/aboutme.svg";
+
 const About = () => {
-  return <div>about me</div>;
+  return <div><Back/></div>;
 };
 export default About;
